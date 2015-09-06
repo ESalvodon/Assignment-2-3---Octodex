@@ -1,0 +1,190 @@
+header {
+    padding:15px;
+    background-color:silver;
+    color:#000;
+    font:serif
+}
+
+body {
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4em;
+  background-color: #fff;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: -50px;
+  padding: -40px;
+  float:right;
+  display: inline;
+  margin-left: 1000px;
+  margin-right: inherit;
+  line-height: -25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+a {
+  color: #4183C4;
+  outline: 0;
+  text-decoration: none;
+}
+
+.index {
+  float: left;
+  position: relative;
+  width: 470px;
+  height: 527px;
+}
+
+
+
+.top-nav {
+  position: fixed;
+  float: right;
+  margin-right: 90px;
+  display:inline;
+  color: black;
+}
+
+.top-nav li {
+  position:relative;
+  float:right;
+}
+
+.top-nav li a {
+  margin-left: 15px;
+  display: inline-block;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.top-nav li a:hover {
+  color: #4183C4;
+}
+
+
+.octo-title {
+    float:left;
+    margin-left:275px;
+    color:#000;
+    font:Arial;
+    margin:inherit
+}
+
+.footer .number {
+    float:left;
+    margin:5px 0;
+    color:#cacaca
+}
+
+.image {
+    padding:15px
+}
+
+#wrapper {
+    padding:0;
+    margin:0;
+    width:940px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+.shell {
+    float:left;
+    padding:0;
+    margin:0;
+    width:470px;
+    height:527px
+}
+
+.shell .footer {
+    font-size:16px;
+    color:#666;
+    font-weight:700;
+    text-align:right;
+    padding:12px 0;
+    margin:0 12px 22px;
+    border-bottom:1px solid #cacaca;
+    position:relative
+}
+
+.shell .footer:before {
+    content:"";
+    display:block;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-top-color:#cacaca;
+    position:absolute;
+    right:7px;
+    top:0
+}
+
+.post .shell .footer {
+    margin-bottom:0;
+    border:none
+}
+
+.shell .footer a {
+    color:#333
+}
+
+div.shell div.footer p {
+    display:inline-block;
+    margin:0 5px 0 0
+}
+
+div.shell div.footer p.number {
+    float:left;
+    margin:5px;
+    color:#cacaca
+}
+
+div.shell div.footer img {
+    vertical-align:middle;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin-left: 15px;
+    display: block;
+    line-height: 25px;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+div.shell div.footer > a {
+    display:inline-block
+}
+
+@media (min-width: 470px) {
+#wrapper {
+    width:470px
+}
+}
+
+@media (min-width: 940px) {
+#wrapper {
+    width:940px
+}
+}
+
+@media (min-width: 1410px) {
+#wrapper {
+    width:1410px
+}
+}
+
+.imgborder {
+    height:446px;
+    width:446px
+}
